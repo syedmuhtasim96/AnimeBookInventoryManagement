@@ -1,0 +1,6 @@
+create table book_details (book_name varchar(100), author_name varchar(100), book_description varchar(100), price float, in_stock int, primary_keyword varchar (10), secondary_keyword varchar(10), book_rating float);
+insert into book_details values ("Death Note", "Takeshi Obata", "Light receives a notebook where he can kill people by writing their names.", 100.0, 3, "D", "Notebook", 9.0);
+insert into book_details values ("Pokemon", "Ken Sugimori", "A world of pocket monsters where Ash Ketchum strives to be a Pokemon Master.", 150.0, 5, "P", "pikachu", 9.5);
+insert into book_details values ("Dragon Ball Z", "Akira Toriyama", "7 dragon balls can grant your every wish.", 200.0, 10, "Z", "Goku", 8.5);
+insert into book_details values ("Fullmetal Alchemist: Brotherhood", "Hiromu Arakawa", "Two brothers pay the price when they try to revive their mother.", 250.0, 4, "F", "Fullmetal", 9.5);
+insert into book_details values ("Naruto", "Masashi Kishimoto", "A young ninja attempts to become the leader of his village.", 300.0, 5, "N", "Naruto", 9.0);
